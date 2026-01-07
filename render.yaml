@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: clasificador-vehiculos
+    env: python
+    buildCommand: ""
+    startCommand: python app.py
+    plan: free
